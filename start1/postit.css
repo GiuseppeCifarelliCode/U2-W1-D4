@@ -31,7 +31,7 @@ article {
     50% {
         top: 50%;
         left: 50%;
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 
     100% {
@@ -59,7 +59,7 @@ article {
     50% {
         top: 50%;
         left: 50%;
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 
     100% {
@@ -87,7 +87,7 @@ article {
     50% {
         top: 25%;
         left: 50%;
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 
     100% {
@@ -101,7 +101,7 @@ article {
     50% {
         top: 25%;
         left: 50%;
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 
     100% {
@@ -115,7 +115,7 @@ article {
     50% {
         top: 25%;
         left: 50%;
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 
     100% {
@@ -192,3 +192,5 @@ article:hover {
     transform: scale(1.2);
     z-index: 1;
 }
+
+
