@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    background-color: grey;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+article {
+    width: 10%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10% 5%;
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.postit1 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(254,255,1,1) 50%);
+}
+
+.postit2 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,255,39,1) 50%);
+}
+
+.postit3 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,117,255,1) 50%);
+}
+
+.postit4 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,255,39,1) 50%);
+}
+
+.postit5 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(254,255,1,1) 50%);
+}
+
+.postit6 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,117,255,1) 50%);
+}
+
+.postit7 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(254,255,1,1) 50%);
+}
+
+.postit8 {
+    background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,255,39,1) 50%);
+}
