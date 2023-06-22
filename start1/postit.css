@@ -10,6 +10,7 @@ main {
     justify-content: space-around;
     height: 100%;
     font-size: 2rem;
+    position: relative;
 }
 
 h1 {
@@ -23,47 +24,168 @@ article {
     box-shadow: 5px 5px 15px 5px #000000;
     margin: 2%;
     padding: 5%;
+    position: absolute;
+}
+
+@keyframes shufflePostit1 {
+    50% {
+        top: 50%;
+        left: 50%;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        transform: rotate(345deg);
+    }
+}
+
+@keyframes shufflePostit2 {
+    50% {
+        top: 50%;
+        left: 50%;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 0;
+        left: 25%;
+        transform: rotate(9deg);
+    }
+}
+
+@keyframes shufflePostit3 {
+    50% {
+        top: 50%;
+        left: 50%;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        top: 0;
+        left: 50%;
+        transform: rotate(338deg);
+    }
+}
+
+@keyframes shufflePostit4 {
+    50% {
+        top: 50%;
+        left: 50%;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 0;
+        left: 75%;
+        transform: rotate(9deg);
+    }
+}
+
+@keyframes shufflePostit5 {
+    50% {
+        top: 25%;
+        left: 50%;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        top: 50%;
+        left: 0%;
+        transform: rotate(347deg);
+    }
+}
+
+@keyframes shufflePostit6 {
+    50% {
+        top: 25%;
+        left: 50%;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        top: 50%;
+        left: 25%;
+        transform: rotate(333deg);
+    }
+}
+
+@keyframes shufflePostit7 {
+    50% {
+        top: 25%;
+        left: 50%;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        top: 50%;
+        left: 50%;
+        transform: rotate(354deg);
+    }
+}
+
+@keyframes shufflePostit8 {
+    50% {
+        top: 25%;
+        left: 50%;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        top: 50%;
+        left: 75%;
+        transform: rotate(5deg);
+    }
 }
 
 .postit1 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(254,255,1,1) 50%);
     padding: 4%;
-    transform: rotate(345deg);
+    animation: shufflePostit1 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit2 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,255,39,1) 50%);
-    transform: rotate(9deg);
+    animation: shufflePostit2 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit3 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,117,255,1) 50%);
-    transform: rotate(338deg);
+    animation: shufflePostit3 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit4 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,255,39,1) 50%);
-    transform: rotate(9deg);
+    animation: shufflePostit4 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit5 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(254,255,1,1) 50%);
-    transform: rotate(347deg);
+    animation: shufflePostit5 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit6 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,117,255,1) 50%);
-    transform: rotate(333deg);
+    animation: shufflePostit6 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit7 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(254,255,1,1) 50%);
-    transform: rotate(354deg);
+    animation: shufflePostit7 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 .postit8 {
     background: linear-gradient(0deg, rgba(75,65,65,1) 0%, rgba(1,255,39,1) 50%);
-    transform: rotate(5deg);
+    animation: shufflePostit8 2s ease 1s 1;
+    animation-fill-mode: forwards;
 }
 
 article:hover {
